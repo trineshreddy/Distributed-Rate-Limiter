@@ -28,6 +28,7 @@ public:
 
     for (int i = 1; i <= num_requests; ++i) {
       RateLimitRequest request;
+      
       request.set_user_id(user_id);
 
       RateLimitResponse response;
